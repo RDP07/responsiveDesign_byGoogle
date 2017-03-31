@@ -25,7 +25,6 @@ ul {
   margin: 0;
 }
 
-
 /*
  *
  * Common
@@ -105,11 +104,13 @@ ul {
 .nav a {
   text-decoration: none;
   color: #616161;
+  padding: 1.5em;
 }
 
 .nav a:hover {
   text-decoration: underline;
   color: #212121;
+  padding: 1.5em;
 }
 
 
@@ -199,11 +200,13 @@ main {
 .top-news__item a {
   text-decoration: none;
   color: #666;
+  padding: 1.5em;
 }
 
 .top-news__item a:hover,
 .top-news__item a:active {
   text-decoration: underline;
+  padding: 1.5em;
 }
 
 
@@ -341,11 +344,13 @@ main {
 .snippet__title a {
   text-decoration: none;
   color: #666;
+  padding: 1.5em;
 }
 
 .snippet__title a:hover,
 .snippet__title a:active {
   text-decoration: underline;
+  padding: 1.5em;
 }
 
 
@@ -369,4 +374,7 @@ footer li {
 footer a {
   text-decoration: none;
   color: #333;
+  padding: 1.5em;
 }
+
+
