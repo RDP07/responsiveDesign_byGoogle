@@ -18,6 +18,7 @@
 
 	.header__title {
 		font-size: 3em;
+	    vertical-align: bottom; 
 	}
 
 	nav {
@@ -82,5 +83,13 @@
 	.weather {
 		order: 3;
 		width: 45%;
+	}
+}
+
+@media (min-width: 900px) {
+	main, .header__inner, .nav, .content {
+		width: 900px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
