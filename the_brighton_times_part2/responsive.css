@@ -21,15 +21,13 @@
 	    vertical-align: bottom; 
 	}
 
-	nav {
+	.nav {
 		z-index: 10;
 		background-color: #fff;
 		width: 300px;
 		position: absolute;
-		/* This trasform moves the drawer off canvas. */
 		-webkit-transform: translate(-300px, 0);
 		transform: translate(-300px, 0);
-		/* Optionally, we animate the drawer. */
 		-webkit-transition: transform 0.3s ease;
 		transition: transform 0.3s ease;
 	}
@@ -39,7 +37,14 @@
 		transform: translate(0, 0);
 	}
 
-	.menu_icon {
+	.nav__item {
+		display: list-item;
+		border-bottom: 1px solid #E0E0E0;
+		width: 100%;
+		text-align: left;
+  }
+  
+	.toggle_nav {
 		display: inline-block;
 		position: absolute;
 		right: 0;
