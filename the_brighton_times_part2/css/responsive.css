@@ -11,6 +11,10 @@
   order: 10;
 }
 
+.scores {
+	width: 100%;
+}
+
 @media screen and (max-width: 550px) {
 	.header__logo {
 		height: 62px;
@@ -62,10 +66,6 @@
 	.weather {
 		order: 1;
 		width: 40%;
-	}
-
-	.scores {
-		width: 100%;
 	}
 }
 
