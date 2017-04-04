@@ -61,5 +61,26 @@
 	.scores {
 		width: 100%;
 	}
+}
 
+@media (min-width: 700px) {
+	.hero{
+		order: 0;
+		width: 50%;
+	}
+
+	.top-news {
+		order: 1;
+		width: 50%;
+	}
+
+	.scores {
+		order: 2;
+		width: 55%;
+	}
+
+	.weather {
+		order: 3;
+		width: 45%;
+	}
 }
