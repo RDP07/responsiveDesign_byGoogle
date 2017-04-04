@@ -6,3 +6,60 @@
 .menu_icon {
 	display: none;
 }
+
+.hero, .top-news, .scores, .weather, .recent-news {
+  order: 10;
+}
+
+@media screen and (max-width: 550px) {
+	.header__logo {
+		height: 62px;
+	}
+
+	.header__title {
+		font-size: 3em;
+	}
+
+	nav {
+		z-index: 10;
+		background-color: #fff;
+		width: 300px;
+		position: absolute;
+		/* This trasform moves the drawer off canvas. */
+		-webkit-transform: translate(-300px, 0);
+		transform: translate(-300px, 0);
+		/* Optionally, we animate the drawer. */
+		-webkit-transition: transform 0.3s ease;
+		transition: transform 0.3s ease;
+	}
+
+	.nav.open {
+		-webkit-transform: translate(0, 0);
+		transform: translate(0, 0);
+	}
+
+	.menu_icon {
+		display: inline-block;
+		position: absolute;
+		right: 0;
+		font-size: 3em;
+		padding: .5em;
+	}
+}
+
+@media (min-width: 551px) {
+	.hero {
+		order: 0;
+		width: 60%
+	}
+
+	.weather {
+		order: 1;
+		width: 40%;
+	}
+
+	.scores {
+		width: 100%;
+	}
+
+}
