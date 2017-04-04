@@ -58,6 +58,20 @@
 }
 
 @media (min-width: 551px) {
+	.header__logo {
+		height: 72px;
+		margin-right: 1em;
+		vertical-align: top;
+		margin-top: 12px;
+	}
+
+	.header__title {
+		font-weight: 300;
+		font-size: 4em;
+		margin: 0.5em 0.25em;
+		display: inline-block;
+	}
+
 	.hero {
 		order: 0;
 		width: 60%
