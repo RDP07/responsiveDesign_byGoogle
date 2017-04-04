@@ -1,0 +1,50 @@
+body {
+	font-size: 15px;
+	line-height: 1em;
+}
+
+.weather__location{
+	margin-bottom: .5em;
+}
+
+@media (max-width: 499px) {
+	.snippet__thumbnail > img {
+		width: 100%;
+	}
+
+	.snippet {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.snippet__title {
+		order: 0;
+		width: 100%;
+		text-align: center;
+		position: relative;	
+		margin: .2em 0em 0em 0em;
+	}
+
+	.snippet__thumbnail {
+		order: 0;
+		width: 100%;
+		height: 10%;
+	}
+
+	.snippet__description {
+		order: 2
+		width: 80%;
+	}
+}
+
+@media (max-width: 550px) {
+	.scores__location {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 700px) {
+  .scores__table {
+    font-size: 12px;
+  }
+}
